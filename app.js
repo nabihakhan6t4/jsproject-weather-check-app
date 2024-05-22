@@ -2,7 +2,7 @@ var weather = prompt("Enter your area weather \n hot \n cold \n sunny \n cloudy 
 
 if (weather == 'hot') {
     document.write('<div class="card rounded-5 p-4 " style="width: 18rem;">' +
-    '<img src="images/hot.png" class=" m-auto img-fluid rounded-5" alt="..."width="100vw" height=""100vh > '  +
+    '<img src="images/hot.png" class=" m-auto img-fluid rounded-5" alt="..."width="100vw"> '  +
    ' <div class="card-body ">' +
     '  <h1 class="card-text text-center">' + 'its ' + weather +  ' today' + '</h1>' +
    ' </div>' +
