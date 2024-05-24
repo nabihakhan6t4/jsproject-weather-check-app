@@ -81,18 +81,65 @@
 //     document.write("<h1 class='m-auto'> 😜 Are you kidding me? </h1>");
 // }
 
-var userWeather = prompt("enter your area temperature")
-if (userWeather < 39 && userWeather >= 33) {
+// var userWeather = prompt("enter your area weather/temperature/celsius");
+
+if (userWeather < 39 && userWeather >= 33){
     document.write(
-        '<div class="background-color m-auto">' +
-        '<div class="card m-auto">' +
-        ' <img src="images/heat-wave.png" class=" myself img-fluid" alt="...">' +
-        ' <div class="card-body text-center text-capitalize">' +
-        '  <h5 class="card-title">Card title</h5>' +
-        ' <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>' +
-        ' <a href="#" class="btn btn-primary">Go somewhere</a>' +
-        '</div>' +
-        ' </div>' +
-        '</div>'
+       ' <div class="card m-auto" >' +
+       ' <img src="https://media1.giphy.com/media/Ify8LioiUw91qBxyu1/200w.gif?cid=6c09b952o7urmzubo1bzgoybj181hccb028rcdgm2bdaap9n&ep=v1_gifs_search&rid=200w.gif&ct=g" class="card-img-top img-fluid custom-clip" alt="...">' +
+        '<div class="card-body">'+
+         ' <h2 class="card-title text-capitalize mb-3 p-3 text-center border">heat-wave</h2>'+
+        '  <h4 class=" text-center border mb-3 p-3">Heat waves are periods of abnormally hot weather, which are accompanied by high humidity. Stay hydrated and avoid direct sun exposure!</h4>' +
+       ' <h5 class="card-text text-center mb-3">its ' + userWeather + '°C    today </h5>'+
+        '</div>' + 
+    '  </div>'
+    )
+}
+if (userWeather < 39 && userWeather >= 33){
+    document.write(
+       ' <div class="card m-auto" >' +
+       ' <img src="https://media1.giphy.com/media/Ify8LioiUw91qBxyu1/200w.gif?cid=6c09b952o7urmzubo1bzgoybj181hccb028rcdgm2bdaap9n&ep=v1_gifs_search&rid=200w.gif&ct=g" class="card-img-top img-fluid custom-clip" alt="...">' +
+        '<div class="card-body">'+
+         ' <h2 class="card-title text-capitalize mb-3 p-3 text-center border">heat-wave</h2>'+
+        '  <h4 class=" text-center border mb-3 p-3">Heat waves are periods of abnormally hot weather, which are accompanied by high humidity. Stay hydrated and avoid direct sun exposure!</h4>' +
+       ' <h5 class="card-text text-center mb-3">its ' + userWeather + '°C    today </h5>'+
+        '</div>' + 
+    '  </div>'
+    )
+}
+if (userWeather < 39 && userWeather >= 33){
+    document.write(
+       ' <div class="card m-auto" >' +
+       ' <img src="https://media1.giphy.com/media/Ify8LioiUw91qBxyu1/200w.gif?cid=6c09b952o7urmzubo1bzgoybj181hccb028rcdgm2bdaap9n&ep=v1_gifs_search&rid=200w.gif&ct=g" class="card-img-top img-fluid custom-clip" alt="...">' +
+        '<div class="card-body">'+
+         ' <h2 class="card-title text-capitalize mb-3 p-3 text-center border">heat-wave</h2>'+
+        '  <h4 class=" text-center border mb-3 p-3">Heat waves are periods of abnormally hot weather, which are accompanied by high humidity. Stay hydrated and avoid direct sun exposure!</h4>' +
+       ' <h5 class="card-text text-center mb-3">its ' + userWeather + '°C    today </h5>'+
+        '</div>' + 
+    '  </div>'
+    )
+}
+if (userWeather < 39 && userWeather >= 33){
+    document.write(
+       ' <div class="card m-auto" >' +
+       ' <img src="https://media1.giphy.com/media/Ify8LioiUw91qBxyu1/200w.gif?cid=6c09b952o7urmzubo1bzgoybj181hccb028rcdgm2bdaap9n&ep=v1_gifs_search&rid=200w.gif&ct=g" class="card-img-top img-fluid custom-clip" alt="...">' +
+        '<div class="card-body">'+
+         ' <h2 class="card-title text-capitalize mb-3 p-3 text-center border">heat-wave</h2>'+
+        '  <h4 class=" text-center border mb-3 p-3">Heat waves are periods of abnormally hot weather, which are accompanied by high humidity. Stay hydrated and avoid direct sun exposure!</h4>' +
+       ' <h5 class="card-text text-center mb-3">its ' + userWeather + '°C    today </h5>'+
+        '</div>' + 
+    '  </div>'
+    )
+}
+if (userWeather < 39 && userWeather >= 33){
+    document.write(
+       ' <div class="card m-auto" >' +
+       ' <img src="https://media1.giphy.com/media/Ify8LioiUw91qBxyu1/200w.gif?cid=6c09b952o7urmzubo1bzgoybj181hccb028rcdgm2bdaap9n&ep=v1_gifs_search&rid=200w.gif&ct=g" class="card-img-top img-fluid custom-clip" alt="...">' +
+        '<div class="card-body">'+
+         ' <h2 class="card-title text-capitalize mb-3 p-3 text-center border">heat-wave</h2>'+
+        '  <h4 class=" text-center border mb-3 p-3">Heat waves are periods of abnormally hot weather, which are accompanied by high humidity. Stay hydrated and avoid direct sun exposure!</h4>' +
+       ' <h5 class="card-text text-center mb-3">its ' + userWeather + '°C    today </h5>'+
+        '</div>' + 
+    '  </div>'
     )
 }
