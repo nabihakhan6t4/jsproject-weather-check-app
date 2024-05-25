@@ -21,3 +21,9 @@ body{
 .card{
     width: 35rem;
 }
+@media screen and (min-width:0px) and (max-width:580px) {
+    .card{
+        width: 25rem;
+        text-transform: lowercase;
+    }
+}
